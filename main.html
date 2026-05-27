@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+
+        <title>VisitControl</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- sidebar -->
+
+            <div class="sidebar">
+
+                <div class="logo">
+                    <img src="img/logo.ico" alt="Logo VisitCOntrol">
+                    <div>
+                        <h2>VisitControl</h2>
+                        <p>Sistema de Visitantes</p>
+                    </div>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li class="active">Dashboard</li>
+                        <li>Visitantes</li>
+                        <li>Relatórios</li>
+                        <li>Configurações</li>
+                    </ul>
+                </nav>
+
+                <div class="footer-sidebar">
+                    <div class="user">
+                        <img src="img/perfil.ico" alt="Foto Usuário">
+                        <div>
+                            <strong>João da Silva</strong>
+                            <p>Portaria</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="exit">
+                        <p>Sair</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <main class="main">
+
+                <!-- conteuúdo -->
+
+                <header class="top">
+                    <h1>Dashboard</h1>
+                    <p>Visão geral do controle de acesso</p>
+                </header>
+
+                <!-- CARDS -->
+
+                <section class="cards">
+
+                    <div class="card">
+                        <h3>Presentes no local</h3>
+                        <span>3</span>
+                        <p>Visitantes</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Entradas hoje</h3>
+                        <span>7</span>
+                        <p>Total do dia</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>Saídas hoje</h3>
+                        <span>4</span>
+                        <p>Total do dia</p>
+                    </div>
+
+                    <div class="card danger">
+                        <h3>Sem baixa</h3>
+                        <span>1</span>
+                        <p>Atenção necessária</p>
+                    </div>
+
+                </section>
+
+                <section class="content">
+
+                    <!-- lista de entrada-->
+
+                    <div class="panel">
+                        <div class="header">
+                            <h2>Entradas recentes</h2>
+                            <a href="#">Ver todas</a>
+                        </div>
+
+                        <div class="line">
+                            <hr>
+                        </div>
+
+                        <div class="visitor">
+                            <div class="person">
+                                <strong>Ana Beatriz</strong>
+                                <p>Design Studio</p>
+                            </div>
+
+                            <div class="info">
+                                <p>10:00</p>
+                                <span class="green status">PRESENTE</span>
+                            </div>
+                        </div>
+
+                        <div class="visitor">
+                            <div class="person">
+                                <strong>Mariana Souza</strong>
+                                <p>Tech Solutions</p>
+                            </div>
+
+                            <div class="info">
+                                <p>09:30</p>
+                                <span class="gray status">SAIU</span>
+                            </div>
+                        </div>
+
+                        <div class="visitor">
+                            <div class="person">
+                                <strong>Juliana Lima</strong>
+                                <p>Delivery Express</p>
+                            </div>
+
+                            <div class="info">
+                                <p>09:05</p>
+                                <span class="gray status">SAIU</span>
+                            </div>
+                        </div>
+
+                        <div class="visitor">
+                            <div class="person">
+                                <strong>Carlos Eduardo da Silva</strong>
+                                <p>Empresa ABC</p>
+                            </div>
+
+                            <div class="info">
+                                <p>08:45</p>
+                                <span class="green status">PRESENTE</span>
+                            </div>
+                        </div>
+
+                        <div class="visitor">
+                            <div class="person">
+                                <strong>Fernando Oliveira</strong>
+                                <p>Manutenção Silva</p>
+                            </div>
+
+                            <div class="info">
+                                <p>08:15</p>
+                                <span class="green status">PRESENTE</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- pessoas no local-->
+
+                    <div class="panel">
+                        <div class="header">
+                            <h2>Visitantes no Local</h2>
+                            <a href="#">Ver todos</a>
+                        </div>
+
+                        <div class="line">
+                            <hr>
+                        </div>
+
+                        <div class="visitor">
+                            <div class="person">
+                                <strong>Carlos Eduardo da Silva</strong>
+                                <p>Apto. 101 - Torre A</p>
+                            </div>
+
+                            <div class="info">
+                                <p>08:45</p>
+                            </div>
+                        </div>
+
+                        <div class="visitor">
+                            <div class="person">
+                                <strong>Fernando Oliveira</strong>
+                                <p>Manutenção</p>
+                            </div>
+
+                            <div class="info">
+                                <p>08:15</p>
+                            </div>
+                        </div>
+
+                        <div class="visitor">
+                            <div class="person">
+                                <strong>Ana Beatriz</strong>
+                                <p>Marketing</p>
+                            </div>
+
+                            <div class="info">
+                                <p>10:00</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- painel de alertas -->
+
+                    <div class="panel">
+                        <div class="header">
+                            <h2>Alertas</h2>
+                        </div>
+
+                        <div class="line">
+                            <hr>
+                        </div>
+
+                        <div class="alert">
+                            <p>Roberto Santos está sem baixa</p>
+                            <span>Entrada: 23/05/2024 - 16:00</span>
+                        </div>
+                    </div>
+
+                    <!-- painel com gráfico -->
+
+                    <div class="panel">
+                        <div class="header">
+                            <h2>Visitantes por categoria</h2>
+                        </div>
+
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </section>
+                </main>
+
+            </body>
+        </html>
