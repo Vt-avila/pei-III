@@ -56,144 +56,157 @@
                 <!-- conteuúdo -->
 
                 <header class="top">
-                    <h1>Visitantes</h1>
-                    <p>Lista de todos os visitantes</p>
+                    <h1>Relatórios</h1>
+                    <p>Acompanhe e exporte os relatórios</p>
                 </header>
 
                 <section class="alternative-content">
 
-                    <!-- lista de visitantes-->
+                    <!-- painel de relatoório -->
 
-                    <div class="panel">
-                        <div class="menu">
-                            <div class="search">
-                                <span>Buscar visitante...</span>
-                            </div>
-                            <ul>
-                                <li class="active">Todos</li>
-                                <li>Presentes</li>
-                                <li>Saídas</li>
-                                <li>Sem baixa</li>
-                            </ul>
-
+                    <div class="panel space">
+                        <div class="header">
+                            <h2>configurar relatório</h2>
                         </div>
 
                         <div class="line">
                             <hr>
                         </div>
 
-                        <div class="list-top">
-                            <p>Visitante</p>
-                            <p>Empresa/Procedência</p>
+                        <div class="report-title">
+                            <p>Data inicial</p>
+                            <p>Data final</p>
+                            <p>Tipo de relatório</p>
+                        </div>
+
+                        <div class="selection">
+                            <span>01/05/2024</span>
+                            <span>24/05/2024</span>
+                            <select name="" id="">
+                                <option value="">Todos os visitantes</option>
+                                <option value="">Somente presentes</option>
+                                <option value="">Somente saídas</option>
+                                <option value="">Sem baixa</option>
+                            </select>
+
+                        </div>
+
+                        <div class="button">
+                            <div class="pdf">
+                                <span>Exportar PDF</span>
+                            </div>
+                            <div class="excel">Exportar Excel</div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- lista de visitantes-->
+
+                    <div class="panel">
+                        <div class="header">
+                            <h2>Visitantes no período</h2>
+                        </div>
+
+                        <div class="line">
+                            <hr>
+                        </div>
+
+                        <div class="list-top-report">
+                            <p>Nome</p>
+                            <p>Empresa</p>
                             <p>Destino</p>
                             <p>Entrada</p>
                             <p>Saída</p>
-                            <p>Status</p>
-                            <p>Ações</p>
+                            <p>Motivo</p>
                         </div>
 
-                        <div class="visitor-element">
+                        <div class="visitor-element-report">
                             <div class="person">
                                 <strong>Carlos Eduardo da Silva</strong>
-                                <p>Fornecedor</p>
                             </div>
                             <span>Empresa ABC</span>
                             <span>Apto. 101 - Torre A</span>
                             <span>24/05/2024 - 8:45</span>
                             <span>-</span>
-                            <span class="green status">PRESENTE</span>
-                            <span></span>
+                            <span>Reunião</span>
                         </div>
 
-                        <div class="visitor-element">
+                        <div class="visitor-element-report">
                             <div class="person">
                                 <strong>Mariana Souza</strong>
-                                <p>Prestador</p>
                             </div>
                             <span>Tech Solutions</span>
                             <span>Apto. 201 - Torre A</span>
                             <span>24/05/2024 - 09:30</span>
                             <span>24/05/2024 - 11:30</span>
-                            <span class="gray status">SAIU</span>
-                            <span></span>
+                            <span>Manutenção</span>
                         </div>
 
-                        <div class="visitor-element">
+                        <div class="visitor-element-report">
                             <div class="person">
                                 <strong>Fernando Oliveira</strong>
-                                <p>Manutenção</p>
                             </div>
                             <span>Manutenção Silva</span>
                             <span>Manutenção</span>
                             <span>24/05/2024 - 08:15</span>
                             <span>-</span>
-                            <span class="green status">PRESENTE</span>
-                            <span></span>
+                            <span>Reparo</span>
                         </div>
 
-                        <div class="visitor-element">
+                        <div class="visitor-element-report">
                             <div class="person">
                                 <strong>Juliana Lima</strong>
-                                <p>Entrega</p>
                             </div>
                             <span>Delivery Express</span>
                             <span>Apto. 302 - Torre B</span>
                             <span>24/05/2024 - 09:05</span>
                             <span>24/05/2024 - 09:15</span>
-                            <span class="gray status">SAIU</span>
-                            <span></span>
+                            <span>Entrega</span>
                         </div>
 
-                        <div class="visitor-element">
+                        <div class="visitor-element-report">
                             <div class="person">
                                 <strong>Roberto Santos</strong>
-                                <p>Visitante</p>
                             </div>
                             <span>Petróleo Companhia</span>
                             <span>Diretoria</span>
                             <span>23/05/2024 - 16:00</span>
                             <span>-</span>
-                            <span class="red status">SEM BAIXA</span>
-                            <span></span>
+                            <span>Reunião Executiva</span>
                         </div>
 
-                        <div class="visitor-element">
+                        <div class="visitor-element-report">
                             <div class="person">
                                 <strong>Ana Beatriz</strong>
-                                <p>Prestador</p>
                             </div>
                             <span>Design Studio</span>
                             <span>Marketing</span>
                             <span>24/05/2024 - 10:00</span>
                             <span>-</span>
-                            <span class="green status">PRESENTE</span>
-                            <span></span>
+                            <span>Apresentação</span>
                         </div>
 
-                        <div class="visitor-element">
+                        <div class="visitor-element-report">
                             <div class="person">
                                 <strong>Paulo Henrique</strong>
-                                <p>Fornecedor</p>
                             </div>
                             <span>Fornecedor XYZ</span>
                             <span>Almoxarifado</span>
                             <span>24/05/2024 - 07:30</span>
                             <span>24/05/2024 - 08:00</span>
-                            <span class="gray status">SAIU</span>
-                            <span></span>
+                            <span>Entrega de materiais</span>
                         </div>
 
-                        <div class="visitor-element">
+                        <div class="visitor-element-report">
                             <div class="person">
                                 <strong>Lucas Almeida</strong>
-                                <p>Prestador</p>
                             </div>
                             <span>Visita Técnica</span>
                             <span>TI</span>
                             <span>24/05/2024 - 07:10</span>
                             <span>24/05/2025 - 09:30</span>
-                            <span class="gray status">SAIU</span>
-                            <span></span>
+                            <span>Suporte técnico</span>
                         </div>
 
                     </div>
