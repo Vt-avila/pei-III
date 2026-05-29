@@ -426,6 +426,46 @@ select {
     padding: 15px;
 }
 
+/* configurações */
+
+.settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    height: 80px;
+    font-size: 16px;
+}
+
+.settings p {
+    margin-top: 5px;
+    color: gray;
+    font-size: 14px;
+}
+
+.conf{
+    width: 900px;
+}
+
+.app {
+    background:#1c5ff1;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+
+}
+
+.app h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.app p {
+    margin-bottom: 10px;
+}
+
 
 /* RESPONSIVO */
 
