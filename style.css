@@ -53,11 +53,14 @@ nav ul {
 }
 
 nav li {
+    display: flex;
+    align-items: center;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
     transition: 0.3s;
+    gap: 10px;
 }
 
 nav li:hover,
@@ -74,12 +77,10 @@ nav .active {
 .user {
     align-items: center;
     display: flex;
+    gap: 10px;
     font-size: 14px;
 }
 
-.user img {
-    padding: 5px;
-}
 
 .user p {
     margin-top: 3px;
@@ -88,12 +89,24 @@ nav .active {
     opacity: 0.7;
 }
 
+.user svg {
+    background: rgb(236, 234, 234);
+    border-radius: 50%;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
 .exit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin-top: 20px;
     margin-left: 5px;
     color: #a6c2ff;
     opacity: 0.7;
 }
+
 
 /* conteúdo */
 
@@ -128,9 +141,16 @@ nav .active {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
 .card h3 {
     font-size: 18px;
-    margin-bottom: 15px;
     color: gray;
 }
 
@@ -248,6 +268,8 @@ nav .active {
 /* caixa de alertas */
 
 .alert {
+    display: flex;
+    gap: 10px;
     margin: 15px 0px;
     border-radius: 15px;
     border: 1px solid rgb(250, 239, 143);
